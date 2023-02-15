@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblig 1</title>
+</head>
+<body>
+    <h1>Bestilling av Kinobilletter</h1>
+    <form id="Form">
+        <h4>Velg film:
+            <select  id="film">
+                <option value="Avatar 2">Avatar 2</option>
+                <option value="Pus in Boots">Puss in Boots</option>
+                <option value="the amazing Spiderman 2">the amazing Spiderman 2</option>
+                <option value="Bølgen">Bølgen</option>
+            </select>
+        </h4>
+        <h4 style="padding-top: 10px; padding-bottom: 10px;">Antall:  <input type="number" id="Antall"><div id="AError"></div></h4>
+        <h4>Fornavn: <input type="text" id="ForNavn"><div id="FError"></div></h4>
+        <h4>Etternavn: <input type="text" id="EtterNavn"><div id="EError"></div></h4>
+        <h4>Telefon: <input type="text" id="Nummer"><div id="NMError"></div></h4> 
+        <h4>Epost: <input type="text" id="Epost"><div id="EPError"></div></h4>
+        <button type="button" id="Kjop">Kjøp billett</button>
+    </form>
+
+    <h2>Alle billetter</h2>
+    <button type="button" id="Slett">Slett alle billettene</button>
+    <div id="Liste"></div>
+</body>
+<script src="Code.js"></script>
+</html>
